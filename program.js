@@ -1,3 +1,4 @@
+//fibonacci
 function fibonacci(n) {
     let a = 0;
     let b = 1;
@@ -12,7 +13,7 @@ function fibonacci(n) {
 }
 
 fibonacci(10);
-
+//even odd
 function evenodd(a) {
     if (a%2==0) {
         console.log("even")
@@ -22,7 +23,7 @@ function evenodd(a) {
 }
 
 evenodd(56)
-
+//operator
 function operator(a,b,c) {
 
     switch (c) {
@@ -42,7 +43,7 @@ function operator(a,b,c) {
 }
 operator(45,56,"-");
 
-
+//which day
 let day = 5;
 switch(day) {
     case 1:
@@ -68,3 +69,28 @@ switch(day) {
         break;
     
 }
+
+// Find Factorial of a number.
+
+// String reversal using Math.floor
+
+let num = 5;
+let f = 1
+ for(let i = 1;i<=num;i++) {
+    f = f*i
+    
+ }
+ console.log(f);
+
+ //string reversal
+ let n=1234;
+ let reverse = 0;
+ for (;n>0;n=Math.floor(n/10)) {
+    let rem=n%10;
+    reverse=reverse*10+rem;
+ }
+ console.log(reverse)
+
+ function sum(a,b) {
+    
+ }
