@@ -91,6 +91,4 @@ let f = 1
  }
  console.log(reverse)
 
- function sum(a,b) {
-    
- }
+
